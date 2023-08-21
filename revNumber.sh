@@ -5,7 +5,7 @@ reverse=0
 set -xv
 while [ $num -gt 0 ]
 do
-    remindr=$(($num % 10))
+    reminder=$(($num % 10))
     reverse=$(( $reverse * 10 + $reminder))
     num=$(( $num / 10))
 done
