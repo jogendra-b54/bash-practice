@@ -5,7 +5,7 @@ strlen=${#s}
 #for((i=$strlen-1;i>=0;i--));
 #do
 #revstr=${s:$i:1}
-revstr=${s:1:4}
+revstr=${s:8:4}
 #done
 #set +xv
 echo "the original string is : $s"
